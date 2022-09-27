@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+.nav{
+    color: aliceblue;
+    background-color:rgba(57, 93, 147, 0.945)  ;
+    position: relative;
+}
+.nav__content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.toppart{
+    display: flex;
+    align-items: center;
+    padding-left: 1160px;
+}
+.image1{
+    height: 40px;
+}
+.spans{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.part1{
+    color: aliceblue;
+    background-color:rgba(57, 93, 147, 0.945) ;
+    position: relative;
+    display: grid;
+    grid-template-columns:auto auto ;
+    
+}
+.image2{
+    height: 500px;
+    padding-left: 57px;
+}
+.rightgrid{
+    padding-left: 62px;
+}
+.rightgrid h1{
+    font-size:50px;
+}
+.part2{
+    color: white;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: 2rem;
+    background-color: rgba(42, 64, 96, 0.945);
+}
+.span2{
+    display: flex;
+    justify-content: space-around;
+}
+.part3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image3{
+    height: 400px;
+    width: 623px;
+}.part4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image5{
+  width: fit-content;
+  height: 700px;
+  margin-bottom: 60px;  
+}
+.image4{
+    height: 400px;
+    width: 300px;
+}
+.rigthspan{
+    margin-left: 0px;
+}
+.rigth{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aliceblue;
+}
+.underspan{
+    margin-top: 0px;
+    background-color: black;
+    width: 600px;
+}
+.image6{
+    height: 300px;
+    width: 300px;
+}
+.part5{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.image7{
+    width: 400px;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.part6{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.partspan{
+    padding-top: 200px;
+}
+.part8{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image9{
+    height: 700px;
+    width: 700px;
+    }
+    .lastpart{
+        padding-top: 50px;
+    }
+    .lastpart h1{
+        padding-left: 400px;
+    }
+    .lastpart span{
+        padding-left: 390px;
+    }
+    .upperfooter{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .buttons{
+        padding-left: 90px;
+    }
+    .buttons input{
+        height: 30px;
+        width: 200px;
+    }
+    .buttons button{
+        height: 35px;
+        width: 90px;
+        background-color: blue;
+        border-color: blue;
+    }
+    .svgs{
+        padding-left: 900px;
+    }
+    .lowerfooter{
+        padding-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lastpart{
+        padding-bottom: 40px;
+        color: white;
+        background-color: rgb(27, 37, 42);
+    }
+    .last{
+        padding-left: 50px;
+        height: 50px;
+    }
